@@ -1,99 +1,72 @@
-# 💎 Bitigey Site Studio
+# 💎 Bitigey Site Studio — Visual AI Website Builder & In-Browser Image Studio
 
 <div align="center">
 
-![Bitigey Banner](https://img.shields.io/badge/B%C4%B0T%C4%B0GEY-Site_Studio_v2.0-f59e0b?style=for-the-badge&logo=sparkles&logoColor=black)
-![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Picsart / Photoshop](https://img.shields.io/badge/Built--in-Photoshop_Studio-e11d48?style=for-the-badge)
-![Gemini AI](https://img.shields.io/badge/Google-Gemini_AI_Co--Pilot-38bdf8?style=for-the-badge&logo=google&logoColor=white)
-![Multi-Language](https://img.shields.io/badge/Language-EN_%7C_TR_%7C_DE-emerald?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)
+[![Author](https://img.shields.io/badge/Author-Tunahan_Haksever-8b5cf6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tunahanhaksever)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Site_Studio-f59e0b?style=for-the-badge&logo=sparkles&logoColor=black)](https://tunahanhaksever.github.io/bitigey-site-studio/)
+[![React 19](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Built-in Photoshop Studio](https://img.shields.io/badge/Built--in-Photo_Editor_Studio-e11d48?style=for-the-badge&logo=adobephotoshop&logoColor=white)](https://tunahanhaksever.github.io/bitigey-site-studio/)
+[![Gemini AI](https://img.shields.io/badge/Google-Gemini_AI_Co--Pilot-38bdf8?style=for-the-badge&logo=google&logoColor=white)](https://tunahanhaksever.github.io/bitigey-site-studio/)
+[![Languages](https://img.shields.io/badge/Languages-EN_%7C_TR_%7C_DE-emerald?style=for-the-badge)](https://tunahanhaksever.github.io/bitigey-site-studio/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 
-<br />
+**Design luxury, responsive websites with zero coding. Features an in-browser Photoshop/Picsart image studio, Google Gemini AI copywriting assistant, multi-language support (EN, TR, DE), luxury palettes (Midnight Gold, Cyberpunk), and 1-click standalone HTML/CSS export.**
 
-# 🌐 [👉 CANLI WEB UYGULAMASINI AÇMAK İÇİN TIKLAYIN 👈](https://tunahanhaksever.github.io/bitigey-site-studio/)
-### **Canlı Adres:** `https://tunahanhaksever.github.io/bitigey-site-studio/`
-
-*(Hiçbir kodlama veya kurulum gerekmeden tarayıcınızdan deneyin)*
-
-<br />
-
-**Sıfır yazılım bilgisiyle lüks web siteleri tasarlayın, yerleşik Photoshop/Picsart stüdyosuyla görselleri boyutlandırıp renklendirin ve Gemini Yapay Zekası ile büyüleyici metinler üretin.**
-
-[🌟 Canlı Uygulama](https://tunahanhaksever.github.io/bitigey-site-studio/) • [🎨 Neler Yapabilirsiniz?](#-neler-yapabilirsiniz) • [📸 Photoshop Stüdyosu](#-yerleşik-picsart--photoshop-stüdyosu) • [🤖 Gemini AI](#-google-gemini-ai-entegrasyonu) • [🚀 Kurulum](#-1-dakikada-kurulum)
+[🚀 Open Live Web App](https://tunahanhaksever.github.io/bitigey-site-studio/) • [✨ Features](#-key-features) • [📸 Image Studio](#-built-in-photo-studio) • [🤖 Gemini AI](#-google-gemini-ai-copilot) • [🇹🇷 Türkçe Kılavuz](#-türkçe-açıklama)
 
 </div>
 
 ---
 
-## 🏛️ Bitigey Ekosistemi Hakkında
-
-**Bitigey** (*bitigey.com*), dijital edebiyatın yüzeysel tüketimine karşı derinlikli, estetik ve özgür bir alan yaratmak amacıyla **Tunahan Haksever** tarafından kurulmuş dijital kültür ve sanat platformudur.
-
-**Bitigey Site Studio**, bu felsefeyi modern web tasarım dünyasına taşır:
-- WordPress'in çökme riskleri, karmaşık eklentileri ve hantallığı **yok**.
-- Ekrana doğrudan tıkla-yaz mantığıyla **sıfır kodla** lüks siteler oluşturun.
-- Yerleşik **Picsart / Photoshop** motoruyla fotoğraflarınızı doğrudan site içinde kırpın, boyutlandırın ve filtreleyin.
-- Tek tıkla **Google Gemini** açın, edebi sloganlar ve akıllı metinler üretin.
-
----
-
-## ✨ Neler Yapabilirsiniz?
+## 🌟 Key Features
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│  BİTİGEY SITE STUDIO ÖZELLİK MERKEZİ                                   │
+│  BITIGEY SITE STUDIO CAPABILITIES                                      │
 ├────────────────────────────────────────────────────────────────────────┤
-│  🏛️ Lüks Görsel Editör        ➔ Apple, Stripe & Bitigey estetiğinde blok│
-│  📸 Photoshop & Picsart Paneli ➔ En/Boy oranı, Hue, Doygunluk, Kontrast │
-│  🤖 Google Gemini Canlı Köprü  ➔ Slogan, manifesto ve içerik üretimi  │
-│  🎨 1-Tıkla Lüks Renk Temaları➔ Midnight Gold, Imperial Crimson, Cyber │
-│  🌍 3 Farklı Dil Seçeneği      ➔ English (EN), Türkçe (TR), Deutsch (DE)│
-│  📱 Canlı Çoklu Cihaz          ➔ Desktop, Tablet ve Mobil önizlemesi   │
-│  📦 Tek Tıkla HTML/CSS İndir   ➔ Herhangi bir sunucuda anında çalışır   │
+│  🏛️ Luxury Visual Canvas      ➔ Apple & Stripe aesthetic block builder │
+│  📸 Built-in Photo Editor      ➔ Aspect ratio, crop, hue, saturation    │
+│  🤖 Google Gemini AI Copilot   ➔ Instant copywriting & slogan creator   │
+│  🎨 1-Click Luxury Palettes    ➔ Midnight Gold, Imperial Crimson, Cyber │
+│  🌍 Multi-Language Ready       ➔ English (EN), Türkçe (TR), Deutsch (DE)│
+│  📱 Multi-Device Simulator     ➔ Live Desktop, Tablet, and Mobile view  │
+│  📦 1-Click Standalone Export  ➔ Download clean, zero-bloat HTML & CSS  │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
----
-
-## 📸 Yerleşik Picsart & Photoshop Stüdyosu
-
-Harici hiçbir görsel programı açmanıza gerek kalmadan site içinden:
-1. **Görsel Boyutlandırma:** 16:9, 4:3, 1:1, 9:16 oranları veya özel piksel (px) girişi.
-2. **İnce Renklendirme:** Parlaklık, Kontrast, Doygunluk (Saturate), Renk Tonu (Hue-rotate), Bulanıklık (Blur).
-3. **Hazır Sanat Filtreleri:** Cyberpunk Neon, Altın Saat (Golden Luxury), Noir Siyah-Beyaz, Vintage Sepya.
-4. **Tek Tıkla Siteye Ekle:** Düzenlenen görseli anında sitenizin kapak veya galeri alanına uygulayın.
+- 🏛️ **No-Code Luxury Design:** WYSIWYG visual editing with typography presets and smooth transitions.
+- 📸 **Built-in Photo Editor:** Edit images on-the-fly without leaving your browser (Crop, Filters, Brightness, Contrast, Hue).
+- 🤖 **AI Content Assistant:** Powered by Google Gemini to generate high-converting copy and literary narratives.
+- 📦 **Zero-Server Clean Export:** Exports a single, standalone zip of pristine HTML5 + modern CSS3.
 
 ---
 
-## 🤖 Google Gemini AI Entegrasyonu
-
-- **"Gemini ile Tasarla"** butonuna bastığınızda yapay zeka hazır promptlarla edebi sloganlar, hizmet metinleri veya manifesto üretir.
-- **Canlı Köprü:** Tek tıkla tarayıcınızda doğrudan `gemini.google.com` adresini açar.
-
----
-
-## 🚀 1 Dakikada Kurulum (Kendi Bilgisayarınızda)
+## 🚀 Quick Start
 
 ```bash
-# 1. Depoyu indirin
+# 1. Clone repo
 git clone https://github.com/tunahanhaksever/bitigey-site-studio.git
 
-# 2. Klasöre girin
+# 2. Enter folder & install dependencies
 cd bitigey-site-studio
-
-# 3. Paketleri kurun
 npm install
 
-# 4. Başlatın
+# 3. Launch dev server
 npm run dev
 ```
 
 ---
 
-## 📄 Lisans
+## 🇹🇷 Türkçe Açıklama
 
-Bu proje **MIT Lisansı** altında korunmaktadır.
+**Bitigey Site Studio**, sıfır yazılım bilgisiyle lüks web siteleri tasarlamanızı sağlayan, yerleşik görsel düzenleme stüdyosu ve Google Gemini yapay zeka asistanı barındıran yeni nesil bir görsel web kurucusudur.
 
-👨‍💻 Tasarım & Mimari: **[Tunahan Haksever](https://github.com/tunahanhaksever)**  
-🌐 Canlı Demo: **[https://tunahanhaksever.github.io/bitigey-site-studio/](https://tunahanhaksever.github.io/bitigey-site-studio/)**
+- **Canlı Demo:** [https://tunahanhaksever.github.io/bitigey-site-studio/](https://tunahanhaksever.github.io/bitigey-site-studio/)
+- **Geliştirici:** [Tunahan Haksever](https://github.com/tunahanhaksever)
+- **Lisans:** MIT
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. Copyright (c) 2026 Tunahan Haksever.
