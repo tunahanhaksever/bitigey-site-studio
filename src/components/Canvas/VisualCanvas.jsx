@@ -243,6 +243,118 @@ export function VisualCanvas({
               </section>
             )}
 
+            {/* 3.5 PRICING SECTION */}
+            {sec.type === 'pricing' && (
+              <section className="px-6 py-16 space-y-8">
+                <div className="text-center space-y-2">
+                  <h2
+                    contentEditable
+                    suppressContentEditableWarning
+                    onBlur={(e) => onUpdateSection(sec.id, { title: e.target.innerText })}
+                    className="text-2xl md:text-3xl font-bold font-heading cursor-text gold-gradient-text"
+                  >
+                    {sec.title}
+                  </h2>
+                  <p
+                    contentEditable
+                    suppressContentEditableWarning
+                    onBlur={(e) => onUpdateSection(sec.id, { subtitle: e.target.innerText })}
+                    className="text-xs md:text-sm text-slate-400 cursor-text"
+                  >
+                    {sec.subtitle}
+                  </p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  {(sec.plans || []).map((plan, pIdx) => (
+                    <div
+                      key={pIdx}
+                      className={`p-6 rounded-2xl luxury-card space-y-4 relative flex flex-col justify-between ${plan.isPopular ? 'border-amber-500/60 shadow-2xl ring-1 ring-amber-500/40' : ''}`}
+                      style={{
+                        backgroundColor: activeTheme.card,
+                        borderColor: plan.isPopular ? activeTheme.primary : activeTheme.border
+                      }}
+                    >
+                      {plan.isPopular && (
+                        <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 rounded-full text-[10px] font-bold bg-amber-500 text-black shadow-lg">
+                          EN ÇOK TERCİH EDİLEN
+                        </span>
+                      )}
+
+                      <div className="space-y-2">
+                        <h3 className="text-lg font-bold text-white">{plan.name}</h3>
+                        <div className="flex items-baseline space-x-1">
+                          <span className="text-3xl font-extrabold text-amber-300">{plan.price}</span>
+                          <span className="text-xs text-slate-400">{plan.period}</span>
+                        </div>
+                      </div>
+
+                      <ul className="space-y-2 py-3 border-t border-white/5 text-xs text-slate-300">
+                        {(plan.features || []).map((feat, fIdx) => (
+                          <li key={fIdx} className="flex items-center space-x-2">
+                            <Sparkles className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                            <span>{feat}</span>
+                          </li>
+                        ))}
+                      </ul>
+
+                      <button
+                        className="w-full py-2.5 rounded-xl font-bold text-xs transition shadow-lg"
+                        style={{
+                          backgroundColor: plan.isPopular ? activeTheme.primary : 'rgba(255,255,255,0.08)',
+                          color: plan.isPopular ? '#000' : '#fff'
+                        }}
+                      >
+                        Planı Seç
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* 3.6 CTA BANNER */}
+            {sec.type === 'cta' && (
+              <section className="px-6 py-16 text-center">
+                <div
+                  className="p-8 md:p-12 rounded-3xl space-y-6 max-w-4xl mx-auto relative overflow-hidden luxury-card"
+                  style={{
+                    background: `linear-gradient(135deg, ${activeTheme.surface}, ${activeTheme.card})`,
+                    borderColor: activeTheme.primary
+                  }}
+                >
+                  {sec.badge && (
+                    <span className="inline-block px-3 py-1 rounded-full text-[10px] font-mono tracking-widest border border-amber-500/40 bg-amber-500/10 text-amber-300">
+                      {sec.badge}
+                    </span>
+                  )}
+                  <h2
+                    contentEditable
+                    suppressContentEditableWarning
+                    onBlur={(e) => onUpdateSection(sec.id, { title: e.target.innerText })}
+                    className="text-2xl md:text-4xl font-extrabold font-serif-title text-white cursor-text leading-tight"
+                  >
+                    {sec.title}
+                  </h2>
+                  <p
+                    contentEditable
+                    suppressContentEditableWarning
+                    onBlur={(e) => onUpdateSection(sec.id, { subtitle: e.target.innerText })}
+                    className="text-xs md:text-sm text-slate-300 max-w-xl mx-auto cursor-text"
+                  >
+                    {sec.subtitle}
+                  </p>
+                  <button
+                    className="px-8 py-3 rounded-full font-bold text-xs inline-flex items-center space-x-2 transition shadow-xl hover:scale-105"
+                    style={{ backgroundColor: activeTheme.primary, color: '#000' }}
+                  >
+                    <span>{sec.buttonText || 'Hemen Başlayın'}</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </button>
+                </div>
+              </section>
+            )}
+
             {/* 4. QUOTE / MANIFESTO */}
             {sec.type === 'quote' && (
               <section className="px-6 py-16 text-center space-y-4 max-w-3xl mx-auto">

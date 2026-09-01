@@ -58,31 +58,50 @@ export function App() {
           'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80'
         ]
       };
+    } else if (type === 'pricing') {
+      newSec = {
+        ...newSec,
+        title: 'Seçkin Üyelik & Yayın Paketleri',
+        subtitle: 'İhtiyacınıza uygun esnek ve avantajlı planlar',
+        plans: [
+          { name: 'Başlangıç', price: 'Ücretsiz', period: 'Ömür boyu', features: ['Temel yayın erişimi', 'Dijital kütüphane', 'Topluluk desteği'], isPopular: false },
+          { name: 'Bitigey Pro', price: '₺149', period: '/ay', features: ['Tüm dergi arşivleri', 'Sınırsız AI kullanımı', 'Özel yazar atölyeleri', 'Öncelikli destek'], isPopular: true },
+          { name: 'Kurumsal VIP', price: '₺499', period: '/ay', features: ['Özel edebi danışmanlık', 'Basılı yayın gönderimi', 'VIP etkinlik davetleri', '7/24 Birebir destek'], isPopular: false }
+        ]
+      };
+    } else if (type === 'cta') {
+      newSec = {
+        ...newSec,
+        title: 'Büyük Dijital Dönüşüme Bugün Katılın',
+        subtitle: 'Siz de modern çağın bağımsız edebi ve teknolojik hareketinde yerinizi alın.',
+        buttonText: 'Hemen Başlayın',
+        badge: 'SINIRLI KONTENJAN'
+      };
     } else if (type === 'quote') {
       newSec = {
         ...newSec,
         quoteText: '"Gelecek, onu bugünden inşa edenlerin eseridir."',
-        author: 'Bitigey Yazar',
-        authorRole: 'Düşünür'
+        author: 'Tunahan Haksever',
+        authorRole: 'Yazar & Sistem Mimarı'
       };
     } else if (type === 'contact') {
       newSec = {
         ...newSec,
         title: 'İletişim & Yayın Başvurusu',
-        subtitle: 'Doğrudan bize ulaşın',
-        buttonText: 'Gönder'
+        subtitle: 'Doğrudan bize ulaşın, projenizi birlikte hayata geçirelim',
+        buttonText: 'Mesajı Gönder'
       };
     } else {
       newSec = {
         ...newSec,
         brandName: 'BİTİGEY',
-        tagline: 'Dijital Edebiyat ve Sanat Stüdyosu',
-        copyright: '© 2026 Bitigey.'
+        tagline: 'Dijital Edebiyat, Sanat ve Teknoloji Stüdyosu — Tunahan Haksever',
+        copyright: '© 2026 Bitigey. Tüm hakları saklıdır.'
       };
     }
 
     setSections(prev => [...prev, newSec]);
-    showToast('✓ Yeni bölüm siteye eklendi!');
+    showToast('✓ Yeni lüks bölüm siteye eklendi!');
   };
 
   // Blok Güncelle
